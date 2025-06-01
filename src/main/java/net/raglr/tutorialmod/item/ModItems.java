@@ -11,6 +11,7 @@ import net.raglr.tutorialmod.TutorialMod;
 public class ModItems {
 
     public static final Item DOMNAH = registerItem("domnah", new Item(new Item.Settings()));
+    public static final Item DOMNAH_INGOT = registerItem("domnah_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem (String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -21,6 +22,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(DOMNAH);
+            fabricItemGroupEntries.add(DOMNAH_INGOT);
         });
     }
 }
