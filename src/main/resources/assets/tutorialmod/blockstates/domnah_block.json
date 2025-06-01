@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "tutorialmod:block/domnah_block"
-    }
+    "": { "model": "tutorialmod:block/domnah_block" }
   }
 }
