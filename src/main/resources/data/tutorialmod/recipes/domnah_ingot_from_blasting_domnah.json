@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cooking_time": 100,
+  "experience": 0.5,
+  "group": "domnah_ingot",
+  "ingredient": {
+    "item": "tutorialmod:domnah"
+  },
+  "result": {
+    "item": "tutorialmod:domnah_ingot"
+  }
+}

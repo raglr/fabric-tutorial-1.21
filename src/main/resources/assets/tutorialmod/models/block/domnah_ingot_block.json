@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/domnah_ore_block"
+    "all": "tutorialmod:block/domnah_ingot_block"
   }
 }

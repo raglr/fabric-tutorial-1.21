@@ -3,5 +3,9 @@
   "item.tutorialmod.domnah_ingot": "Domnah Ingot",
 
   "block.tutorialmod.domnah_block": "Block of Domnah",
-  "block.tutorialmod.domnah_ore_block": "Ore Domnah"
+  "block.tutorialmod.domnah_ingot_block": "Block of Domnah Ingot",
+
+  "itemgroup.tutorialmod.domnah_items": "Domnah Items",
+  "itemgroup.tutorialmod.domnah_blocks": "Domnah Blocks"
+
 }

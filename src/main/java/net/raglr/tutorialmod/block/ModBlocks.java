@@ -17,8 +17,8 @@ public class ModBlocks {
     public static final Block DOMNAH_BLOCK = registerBlock("domnah_block",
             new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.MUD)));
 
-    public static final Block DOMNAH_ORE_BLOCK = registerBlock("domnah_ore_block",
-            new Block(AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block DOMNAH_INGOT_BLOCK = registerBlock("domnah_ingot_block",
+            new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.MUD_BRICKS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -36,7 +36,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.DOMNAH_BLOCK);
-            fabricItemGroupEntries.add(ModBlocks.DOMNAH_ORE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.DOMNAH_INGOT_BLOCK);
         });
     }
 }
